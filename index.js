@@ -60,8 +60,8 @@ function display() {
     const EditBtn = document.createElement("button");
     EditBtn.textContent = "EDIT";
     EditBtn.addEventListener("click", ()=>{
-     cel.contentEditable = true;
-     cel.textContent = listofExstra[i][p];
+     row.contentEditable = true;
+     row.textContent = listofExstra[i][p];
     });
     EditBtn.classList.add("EditBtn");
     row.appendChild(EditBtn);
