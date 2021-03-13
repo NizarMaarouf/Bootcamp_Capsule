@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/tablesort.css">
+  <title>Bootcamp Capsule</title>
+</head>
+
+<body>
+
+<div id="container">
+  <div class="page-loader">
+        <div class="spinner"></div>
+        <p class="message">Please wait <br>The Page Is Loading</p>
+      </div>
+       <div class="search-bar">
+        <select id="dropdown">
+          <option value="Search by">Search by</option>
+          <option>First Name</option>
+          <option>Last Name</option>
+          <option>Capsule</option>
+          <option>Age</option>
+          <option>City</option>
+          <option>Gender</option>
+          <option>Hobby</option>
+        </select>
+        <input type="text" name="search-field" id="search-field" />
+      </div>
+
+      <div class="sort-bar"></div>
+      <div class="title-area">
+    <table id="customers" class="table-sortable">
+      <thead id="thead">
+         <tr>
+          <th class="th-sort-asc  ">ID</th>
+          <th class="th-sort-asc  ">FirstName</th>
+          <th class="th-sort-asc  ">LastName</th>
+          <th class="th-sort-asc  ">Capsule</th>
+          <th class="th-sort-asc  ">Age</th>
+          <th class="th-sort-asc  ">City</th>
+          <th class="th-sort-asc  ">Hoppy</th>
+         </tr>
+        </thead>
+
+        <tbody id="table"></tbody>
+
+        </table>
+  </div>
+
+  <script src="/index.js"></script>
+  <script src="/tablesort.js"></script>
+</body>
+
+</html>
